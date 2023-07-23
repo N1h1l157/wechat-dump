@@ -1,0 +1,26 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Chat with {chat}</title>
+  {extra_css}
+  {extra_js}
+</head>
+
+<body>
+  <div id="chat" class="chatPanel normalPanel">
+    <div class="chatMainPanel" id="chatMainPanel">
+      <div class="chatTitle">
+        <div class="chatNameWrap">
+          <p class="chatName" id="messagePanelTitle">{chat}</p>
+        </div>
+      </div>
+      <div class="chatScorll" style="position: relative; font-family:initial;">
+        <div id="chat_chatmsglist" class="chatContent" style="position: absolute;">
+          {messages}
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

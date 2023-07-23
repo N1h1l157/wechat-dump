@@ -1,0 +1,20 @@
+<div class="chatItem {sender_label}">
+  <div class="chatItemContent">
+    <span class="avatar"></span>
+    <div class="cloud cloudVoice" onclick="playVoice(event)" style="width:80px">
+      <div class="cloudPannel" title="{time}" {nickname}>
+        <div class="sendStatus">
+          <span class="second">{voice_duration:.1f}"</span>
+        </div>
+        <div class="cloudBody">
+          <div class="cloudContent">
+            <span class="icoVoice"></span>
+            <audio>
+              <source src="data:audio/mp3;base64,{voice_str}" />
+            </audio>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

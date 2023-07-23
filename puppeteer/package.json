@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "pdf-lib": "^1.17.1",
+    "puppeteer": "^20.8.2",
+    "yargs": "^17.7.2"
+  }
+}

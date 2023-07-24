@@ -2,12 +2,18 @@
 ### 效果图展示
 
 1）wechat-backup 导出
-<img src="http://n1h1l157.github.io/N1h1l157/Safe/image-119.png" width="770" alt="Image">
+
+<img src="http://n1h1l157.github.io/N1h1l157/Safe/image-119.png" width="720" alt="Image">
+
 2）wechat-dump 导出
-<img src="http://n1h1l157.github.io/N1h1l157/Safe/image-130.png" width="550" alt="Image">
+
+<img src="http://n1h1l157.github.io/N1h1l157/Safe/image-130.png" width="500" alt="Image">
 
 3）聊天记录转pdf
-<img src="http://n1h1l157.github.io/N1h1l157/Safe/image-133.png" width="660" alt="Image">
+
+<img src="http://n1h1l157.github.io/N1h1l157/Safe/image-133.png" width="520" alt="Image">
+
+---
 
 ### 使用流程
 
@@ -29,6 +35,8 @@
 
 5）运行程序解析聊天记录
 
+---
+
 ### 程序运行命令
 
 ```shell
@@ -41,6 +49,8 @@ python dump-msg.py ～/230721_backup/EnMicroMsg_230721.db result/msg
 # 导出为 html
 python dump-html.py --db ～/220921_backup/EnMicroMsg_220921.db --res ～/230721_backup --output result/Camile/Camile.html wxid_qxxxxxxx22
 ```
+
+---
 
 ### 参考项目
 

@@ -7,7 +7,7 @@
 
 2）wechat-dump 导出
 
-<img src="http://n1h1l157.github.io/N1h1l157/Safe/image-130.png" width="500" alt="Image">
+<img src="http://n1h1l157.github.io/N1h1l157/Safe/image-130.png" width="470" alt="Image">
 
 3）聊天记录转pdf
 
@@ -55,7 +55,10 @@ python dump-html.py --db ～/220921_backup/EnMicroMsg_220921.db --res ～/230721
 ### 参考项目
 
 详细流程：[http://n1h1l157.github.io/2023/07/23/SAFE/](http://n1h1l157.github.io/2023/07/23/SAFE/%E8%BD%AC%E5%82%A8%E5%BE%AE%E4%BF%A1%E8%81%8A%E5%A4%A9%E8%AE%B0%E5%BD%95/)
+
 wechat-backup:[https://github.com/greycodee/wechat-backup](https://github.com/greycodee/wechat-backup)
+
 wechat-dump: [https://github.com/ppwwyyxx/wechat-dump](https://github.com/ppwwyyxx/wechat-dump)
+
 puppeteer: [https://github.com/puppeteer/puppeteer](https://github.com/puppeteer/puppeteer)
 
